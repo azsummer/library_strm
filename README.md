@@ -24,7 +24,7 @@
 
 ```
 相关参数
-compatibility: fast:性能模式，内部处理系统操作类型选择最优解; compatibility:兼容模式，目录同步性能降低且NAS不能休眠，但可以兼容挂载的远程共享目录如SMB   
+monitoring_mode: fast:性能模式，内部处理系统操作类型选择最优解; compatibility:兼容模式，目录同步性能降低且NAS不能休眠，但可以兼容挂载的远程共享目录如SMB   
 source_dir:网盘挂载本地资源路径（监控路径）                                            
 dest_dir:strm保存路径（转移路径）                                                    
 library_dir:媒体库容器内挂载网盘路径（非strm路径！！意味着要把挂载到网盘的本地路径映射到媒体服务器中）                                                    
